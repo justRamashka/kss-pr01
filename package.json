@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": ">=24"
+  },
   "name": "kss-pr01",
   "version": "1.0.0",
   "description": "Практична робота № 1. Налаштування середовища розробки",
@@ -6,6 +9,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
+    "serve": "node src/server.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier . --write",

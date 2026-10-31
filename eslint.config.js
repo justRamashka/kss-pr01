@@ -11,9 +11,10 @@ export default [
       globals: globals.node,
     },
     rules: {
-      "no-unused-vars": "error",
-      "prefer-const": "error",
-      eqeqeq: "error",
+        "no-unused-vars": "error",
+        "prefer-const": "error",
+        eqeqeq: "error",
+        "no-var": "error",
     },
   },
   prettier,

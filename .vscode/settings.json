@@ -2,4 +2,6 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": { "source.fixAll.eslint": "explicit" }
+  "check": "npm run lint && npm run format:check",
+  "serve": "node src/server.js"
 }
